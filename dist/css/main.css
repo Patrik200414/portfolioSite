@@ -26,7 +26,6 @@
 
 .menu-nav {
   display: flex;
-  justify-content: space-around;
 }
 
 .manu-nav-item {
@@ -73,6 +72,12 @@
 .menu-btn-burger.open {
   transform: rotate(720deg);
   background: transparent;
+}
+.menu-btn-burger.open::before {
+  transform: rotate(45deg) translate(5px, 8px);
+}
+.menu-btn-burger.open::after {
+  transform: rotate(-45deg) translate(3px, -7px);
 }
 
 body {
