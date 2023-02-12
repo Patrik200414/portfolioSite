@@ -4,6 +4,25 @@
     overflow: hidden;
     align-items: center;
     text-align: center;
-    background: /*Image here*/rgba(255, 255, 255, 1);
+    background: /*Image here*/
+        linear-gradient(
+            to righ,
+            rgba($primary-color, 0.9),
+            rgba($primary-color, 0.3)
+        ),
+
+        rgba(255, 255, 255, 0.5) center top;
     background-size: cover;
+
+    &-name{
+        font-size: 5rem;
+        padding-bottom: 1rem;
+        margin-top: 1rem;
+        border-bottom: 2px solid #fff;
+
+        &-last{
+            color: $secondary-color;
+            font-weight: 700;
+        }
+    }
 }
