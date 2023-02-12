@@ -20,7 +20,7 @@
   border-bottom: 2px solid #fff;
 }
 .home-name-last {
-  color: #ff652f;
+  color: #94C973;
   font-weight: 700;
 }
 
@@ -62,7 +62,7 @@ main .social-icons a {
   transition: all 0.5s ease-in-out;
 }
 main .social-icons a:hover {
-  color: #ff652f;
+  color: #94C973;
 }
 
 footer {
