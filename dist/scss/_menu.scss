@@ -92,5 +92,18 @@
                 color: $secondary-color;
             }
         }
+
+        &-link{
+            display: inline-block;
+            font-size: 2rem;
+            text-transform: uppercase;
+            padding: 2rem 0;
+            font-weight: 300;
+            @include transition-ease;
+
+            &:hover{
+                color: $secondary-color;
+            }
+        }
     }
 }
