@@ -84,5 +84,13 @@
         &.open{
             transform: translateY(0);
         }
+
+        &-item{
+            @include transition-ease;
+
+            &.active > a{
+                color: $secondary-color;
+            }
+        }
     }
 }

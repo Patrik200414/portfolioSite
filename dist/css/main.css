@@ -103,6 +103,12 @@
 .nav .menu-nav.open {
   transform: translateY(0);
 }
+.nav .menu-nav-item {
+  transition: all 0.5s ease-in-out;
+}
+.nav .menu-nav-item.active > a {
+  color: #94C973;
+}
 
 body {
   background-color: #272727;
