@@ -151,6 +151,17 @@
   grid-template-columns: 1fr;
   grid-gap: 2rem;
 }
+.about .resume-item {
+  background: #414141;
+  padding: 0.5rem;
+  border-bottom: 5px solid #94C973;
+}
+.about .resume-item h2, .about .resume-item h3 {
+  margin: 0.5rem 0;
+}
+.about .resume-item h6 {
+  margin: 0.3rem 0;
+}
 
 body {
   background-color: #272727;
