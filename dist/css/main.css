@@ -162,6 +162,10 @@
 .about .resume-item h6 {
   margin: 0.3rem 0;
 }
+.about .social-icons {
+  display: flex;
+  flex-direction: column;
+}
 
 body {
   background-color: #272727;
