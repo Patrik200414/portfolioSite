@@ -121,6 +121,37 @@
   color: #94C973;
 }
 
+.about {
+  padding-bottom: 2rem;
+}
+.about-bio-img {
+  height: 50vh;
+  width: 100%;
+  background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.about-bio-img p {
+  margin-bottom: 2rem;
+}
+.about-bio {
+  width: 80%;
+  text-align: center;
+}
+.about-bio .text-secondary {
+  padding-bottom: 1rem;
+}
+.about .resume {
+  width: 60vw;
+  margin: 2rem auto 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 2rem;
+}
+
 body {
   background-color: #272727;
   color: #fff;
