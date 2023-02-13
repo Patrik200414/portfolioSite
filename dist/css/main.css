@@ -138,6 +138,10 @@ a {
   text-decoration: none;
 }
 
+.text-secondary {
+  color: #94C973;
+}
+
 header {
   position: fixed;
   z-index: 2;
