@@ -38,6 +38,25 @@
         img{
             width: 100%;
         }
+
+        &::after{
+            content: ' ';
+            position: absolute;
+            top: 100%;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: $secondary-color;
+            opacity: 0;
+            @include transition-ease;
+        }
+        
+        &:hover{
+            &::after{
+                top: 0;
+                opacity: 0.9;
+            }
+        }
     }
 
     .social-icons{
