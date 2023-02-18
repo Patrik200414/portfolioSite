@@ -300,6 +300,9 @@
   .projects .text-secondary {
     font-size: 3rem;
   }
+  .contact-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 body {
   background-color: #272727;
