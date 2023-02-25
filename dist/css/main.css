@@ -304,6 +304,16 @@
     grid-template-columns: repeat(3, 1fr);
   }
 }
+@media screen and (min-width: 1024px) {
+  .projects-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (min-width: 1600px) {
+  .projects-bio-image {
+    height: 50vh;
+  }
+}
 body {
   background-color: #272727;
   color: #fff;
