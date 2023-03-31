@@ -4,15 +4,16 @@
     overflow: hidden;
     align-items: center;
     text-align: center;
-    background: /*Image here*/
+    background: 
         linear-gradient(
-            to righ,
-            rgba($primary-color, 0.9),
-            rgba($primary-color, 0.3)
+            to right,
+            rgba($primary-color, .9),
+            rgba($primary-color, .3)
         ),
-
-        rgba(255, 255, 255, 0.5) center top;
-    background-size: cover;
+    
+    url("../image/kepPortfolio.jpg") center top;
+    background-size: contain;
+    background-repeat: no-repeat;
 
     &-name{
         font-size: 5rem;
